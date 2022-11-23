@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="text_11_23.c">
+    <ClCompile Include="caishu.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
