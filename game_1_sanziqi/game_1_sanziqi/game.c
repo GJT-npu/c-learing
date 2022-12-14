@@ -90,6 +90,7 @@ void PcMove(char board[ROW][COL] , int row , int col)
 	}
 }
 
+//棋盘元素是否占满判断函数
 int IsFull(char board[ROW][COL] , int row , int col)
 {
 	int i = 0;
