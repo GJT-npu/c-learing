@@ -119,16 +119,10 @@ void FindMine(char mine[ROWS][COLS] , char show[ROWS][COLS] , int row , int col)
 			printf("坐标非法，请重新输入:>");
 		}
 	}
+	if (win == row * col - MINECOUNT)
+	{
+		printf("恭喜你，排雷成功\n");
+		DisplayBoard(mine , row , col);
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
 

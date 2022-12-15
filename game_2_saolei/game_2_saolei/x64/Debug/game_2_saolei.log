@@ -1,3 +1,6 @@
 ﻿  game.c
 E:\VScode\c-language-learning-c\game_2_saolei\game_2_saolei\game.c(46,11): warning C4013: “rand”未定义；假设外部返回 int
+  test.c
+E:\VScode\c-language-learning-c\game_2_saolei\game_2_saolei\test.c(38,2): warning C4013: “srand”未定义；假设外部返回 int
+  正在生成代码...
   game_2_saolei.vcxproj -> E:\VScode\c-language-learning-c\game_2_saolei\x64\Debug\game_2_saolei.exe
