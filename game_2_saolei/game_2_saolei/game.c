@@ -102,7 +102,7 @@ void FindMine(char mine[ROWS][COLS] , char show[ROWS][COLS] , int row , int col)
 			if (mine[x][y] == '1')  //是炸弹
 			{
 				printf("很抱歉，你被炸死了\n");
-				DisplayBoard(mine , row , col);
+				DisplayBoard(mine , row , col);  //炸死了，展示一下怎么死的
 				break;
 			}
 			else  //不是炸弹
@@ -122,7 +122,7 @@ void FindMine(char mine[ROWS][COLS] , char show[ROWS][COLS] , int row , int col)
 	if (win == row * col - MINECOUNT)
 	{
 		printf("恭喜你，排雷成功\n");
-		DisplayBoard(mine , row , col);
+		DisplayBoard(mine , row , col); 
 	}
 }
 
