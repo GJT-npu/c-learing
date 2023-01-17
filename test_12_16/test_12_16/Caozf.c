@@ -94,7 +94,6 @@
 //	printf("书名:%s\n" , pb->name);
 //	printf("书号:%s\n" , pb->id);
 //	printf("定价:%d\n" , pb->price);
-//
 //}
 
    
